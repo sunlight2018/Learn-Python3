@@ -31,9 +31,9 @@ print(txt_again.read())
 
 
 print("'Let's practice everything.")
-print("You\'d need to know \'bout escapes with \\ that do \n newlines and \t tabs.")
+print("You\'d need to know about escapes with \\ that do \\n newlines and \\t tabs.")
 
-poem = 
+poem = (
 """
 \tThe lovely world
 with logic so firmly planted
@@ -41,10 +41,8 @@ cannot discern \n the needs of love
 nor comprehend passion from intuition
 and requires an explanation
 \n\t\twhere there is none.
-
-
-
 """
+)
 
 print("--------------")
 print(poem)
@@ -86,7 +84,7 @@ dogs = 15
 
 
 if people < cats:
-    print "Too many cats! The world is doomed!"
+    print ("Too many cats! The world is doomed!")
 
 if people > cats:
     print("Not many cats! The world is saved!")
@@ -107,5 +105,5 @@ if people <= dogs:
     print("People are less than or equal to dogs.")
 
 
-if people = dogs:
+if people == dogs:
     print("People are dogs.")
